@@ -4,13 +4,13 @@
 
 <div class="navbar bg-primary">
     <div class="flex-1">
-        <a class="btn btn-ghost normal-case text-xl">carSearch</a>
+        <a href="/" class="btn btn-ghost normal-case text-xl">carSearch</a>
     </div>
     <div class="flex-none">
         <div class="dropdown dropdown-end">
             {#if !$userData.username}
                 <div class="navbar-end">
-                    <a class="btn">Login</a>
+                    <a href="/login" class="btn">Login</a>
                 </div>
             {:else}
             <label tabindex="0" class="btn btn-ghost btn-circle avatar">
